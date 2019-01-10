@@ -1,0 +1,4 @@
+rec_item_list = user_cf.recommend（'1'，train，W，10）
+print（sorted（rec_item_list.items（），key = operator.itemgetter（1），reverse = True）[：20]）
+
+＃调用user_cf获取用户1的10个相似用户推出20个相似商品
